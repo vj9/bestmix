@@ -63,6 +63,10 @@ group :development do
   gem 'pry-rails'
 end
 
+group :production do
+  gem 'pg'
+end
+
 gem 'rspec-rails', :group => [ :test, :development ]
 group :test do
   gem 'guard-rspec'
